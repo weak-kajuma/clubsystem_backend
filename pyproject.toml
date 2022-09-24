@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "clubsystem"
+version = "0.1.0"
+description = ""
+authors = ["weak_kajuma"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.85.0"
+uvicorn = {extras = ["standard"], version = "^0.18.3"}
+motor = "^3.0.0"
+pymongo = {extras = ["srv"], version = "^4.2.0"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
