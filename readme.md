@@ -1,6 +1,6 @@
-# Todo-Backend
+# clubsystem_backend
 
-このソフトはTodoリストのバックエンドをなしています
+このソフトはClubsystemのバックエンドをなしています
 
 ## Deployの方法
 
