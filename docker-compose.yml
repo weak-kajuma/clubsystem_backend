@@ -7,6 +7,7 @@ services:
       - .:/src
     ports:
       - 8001:8000  # ホストマシンのポート8000を、docker内のポート8000に接続する
+    restart: always
   mongo:
     image: mongo
     restart: always
@@ -18,3 +19,4 @@ services:
     volumes:
       - ./db:/data/db
       - ./configdb:/data/configdb
+    restart: always
